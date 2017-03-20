@@ -2,15 +2,21 @@
  * Your Styles Here
  * ----------------------------------- */
 html {
-	font-size: 10px
+	font-size: 10px;
+	background-color: #f6f6ee;
+	color: #33331a; 
 }
 
 #main-header {
 	height: 200px;
+	padding-left: 10px;
+	border-bottom: 1px solid #8D8D8B;
+
 }
 #main-header .site-title {
-	color: green;
+	color: #656534;
 	font-size: 5rem;
+	padding-top: 50px;
 }
 #main-header .tagline {
 	font-size: 2.4rem;
@@ -19,43 +25,70 @@ html {
 .main-content-section {
 	float: left;
 	display: block;
-	background-color: orange;
 	padding-left: 200px;
+	width: 70%;
+	margin: auto;
+	max-width: 750px;
+	
 }
 .main-content-section p {
-	line-height: 2.4rem;
+	line-height: 3rem;
 	font-size: 1.8rem;
 	text-indent: 10px;
 	padding-left: 10px;
+	margin: auto;
+	max-width: 750px;
+	
+}
+
+
+.main-content-section p:last-child {
+	padding-bottom: 10px;
 }
 
 .section-title {
 	font-size: 24px;
 	font-weight: 700;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: left;
+	display: block;
+	margin: auto;
 }
 
 #sidebar {
-float: left;
-position: absolute;
-display: block;
-width: 190px;
-min-height: 100%;
-background-color: red;
+	float: left;
+	position: absolute;
+	display: block;
+	width: 30%;
+	max-width: 200px;
+	height: auto;
+	border-right: 1px solid #8D8D8B;
 }
 
 .nav-link  {
-		text-decoration: none;
-		font-size: 1.8rem;
-		width: 100%;
-		height: 100%;
-		padding-top: 16px;
-		padding-bottom: 16px;
+	text-decoration: none;
+	font-size: 1.8rem;
+	width: 100%;
+	height: 100%;
+	color: #000;
 
+}
+.nav-link-list-item:first-child {
+	border-top: 1px solid #8D8D8B;
 }
 
 .nav-link-list-item {
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #8D8D8B;
 
+}
+
+.nav-link-list-item:hover {
+	background-color: #e5e5cd;
 }
 
 
