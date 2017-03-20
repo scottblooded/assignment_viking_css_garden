@@ -1,9 +1,62 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+html {
+	font-size: 10px
+}
 
+#main-header {
+	height: 200px;
+}
+#main-header .site-title {
+	color: green;
+	font-size: 5rem;
+}
+#main-header .tagline {
+	font-size: 2.4rem;
+}
 
+.main-content-section {
+	float: left;
+	display: block;
+	background-color: orange;
+	padding-left: 200px;
+}
+.main-content-section p {
+	line-height: 2.4rem;
+	font-size: 1.8rem;
+	text-indent: 10px;
+	padding-left: 10px;
+}
 
+.section-title {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#sidebar {
+float: left;
+position: absolute;
+display: block;
+width: 190px;
+min-height: 100%;
+background-color: red;
+}
+
+.nav-link  {
+		text-decoration: none;
+		font-size: 1.8rem;
+		width: 100%;
+		height: 100%;
+		padding-top: 16px;
+		padding-bottom: 16px;
+
+}
+
+.nav-link-list-item {
+	text-align: center;
+
+}
 
 
 
